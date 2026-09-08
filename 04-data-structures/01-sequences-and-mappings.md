@@ -26,4 +26,3 @@ This function traverses the words once. If the total number of characters is ign
 Choose by operation, not habit. If you repeatedly test whether an identifier was seen, use a set. If you retrieve a record by identifier, use a dictionary. If you need stable positions and duplicates, use a list. Sometimes two structures cooperate: a list preserves display order while a set prevents duplicates. That uses more memory but expresses both requirements clearly.
 
 Be alert to aliasing. Assigning `second = first` does not copy a list; both names refer to the same object. Use `first.copy()` for a shallow copy when nested values do not require independent copies. Data structure choice includes ownership and mutation rules, not only runtime cost.
-

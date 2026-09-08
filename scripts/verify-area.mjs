@@ -34,4 +34,3 @@ for (const moduleName of modules) {
 }
 
 if (!process.exitCode) console.log('area verification passed');
-

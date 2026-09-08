@@ -32,4 +32,3 @@ Videos are optional. Use one when a diagram, live demonstration, or second expla
 6. Return to the related exercise or project.
 
 If a video and the current official documentation disagree about a command or supported version, follow the current documentation. Videos age faster than reference pages.
-

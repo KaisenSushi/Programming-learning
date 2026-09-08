@@ -30,4 +30,3 @@ by_score = sorted(records, key=lambda record: record[1])
 Sorting first is not always a win. One linear search costs `O(n)`, while sorting followed by binary search costs `O(n log n)`. If the same collection receives many searches, paying the sorting cost once may be worthwhile. If data changes frequently or only one search is needed, a direct scan or a set may be better.
 
 Always state whether your algorithm returns any matching index, the first match, or all matches. With duplicates, ordinary binary search may return any matching position. A clear contract prevents a correct algorithm from being used for the wrong question.
-

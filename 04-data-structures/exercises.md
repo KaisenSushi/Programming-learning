@@ -12,4 +12,3 @@ For each exercise, state why the selected structure fits and give time and extra
 6. Use `heapq` to write `smallest_three(values)`. Return all values in ascending order when fewer than three are supplied. Explain why building one heap and popping at most three times differs from fully sorting the input.
 
 Create at least two tests for each function. Include empty input and a case containing duplicates where appropriate. Compare your work with [solutions.md](solutions.md) only after the tests pass.
-

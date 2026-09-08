@@ -26,4 +26,3 @@ When a test fails, reduce the input until the failure is still visible. A small 
 Improvement should be measured against a goal. If runtime matters, generate increasing input sizes and time repeated runs. If maintainability matters, simplify names and responsibilities. If correctness matters, add tests for every discovered bug. An optimization that changes behavior is not an improvement.
 
 Finish with a review pass. Check that the function does not unexpectedly mutate input, failure behavior is documented, variable names match their meaning, and complexity claims match the operations used. A dictionary lookup is usually average `O(1)`, but sorting remains `O(n log n)`. Honest analysis makes later design choices much easier.
-

@@ -11,4 +11,3 @@ Do not mutate the graph. Treat a missing start or goal as unreachable unless the
 Add `reachable_places(graph, start)`, using either BFS or DFS to return a set of all reachable places. Include tests for a direct connection, multiple equally short routes, a cycle, disconnected sections, missing vertices, and start equal to goal.
 
 Explain why both functions take `O(V + E)` time in the reachable part of the graph and use `O(V)` extra traversal space. Include a hand trace showing the queue and predecessor dictionary after each step for one map of at least five places. Compare your completed work with [solutions.md](solutions.md).
-

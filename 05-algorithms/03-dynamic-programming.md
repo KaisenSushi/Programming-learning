@@ -25,4 +25,3 @@ Dynamic programming is not the right tool for every recursive-looking problem. I
 Test base cases carefully because every later table entry depends on them. Trace the state table for a tiny input and write what each entry means. A table full of correct numbers is not enough if its meaning is unclear. Good state definitions are the hardest and most reusable part of this technique.
 
 For optional deeper instruction, use the dynamic programming lectures in MIT OpenCourseWare’s [Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/).
-

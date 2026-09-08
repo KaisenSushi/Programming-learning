@@ -29,4 +29,3 @@ network = {
 Trees are a restricted kind of graph, but that restriction enables stronger assumptions. A general graph may contain cycles, so traversal must track visited vertices. A dependency graph is directed because “A requires B” is not interchangeable with “B requires A.” A route map may be weighted because roads have different distances.
 
 Choose a heap when repeated minimum or maximum removal is central. Choose a tree for hierarchical structure or ordered search with a balancing strategy. Choose a graph when entities can have many-to-many relationships. State the representation along with the abstract structure, because an adjacency matrix and adjacency list have different memory and neighbor-iteration costs.
-

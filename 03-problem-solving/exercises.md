@@ -11,4 +11,3 @@ Solve these in order. For each one, write the input-output contract, two boundar
 5. Trace the bracket algorithm from lesson 3 on `"{a[()]b}"`. Show the stack after each bracket. Then give one input that fails because of ordering and another that fails because an opening bracket remains.
 
 For an extra challenge, create tests with Python `assert` statements. Include normal, empty, and adversarial inputs. A test is strongest when you can name the exact mistake it would catch.
-

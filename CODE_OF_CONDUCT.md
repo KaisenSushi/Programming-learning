@@ -30,4 +30,3 @@ The maintainer will review reports in good faith, protect the privacy and safety
 Maintainers may edit or remove contributions that do not follow this code. They may also limit participation when behavior makes the project unsafe or prevents useful collaboration. Decisions should be explained to the affected person unless doing so would create more risk.
 
 This code is adapted from the principles of the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/), with wording kept specific to this learning project.
-

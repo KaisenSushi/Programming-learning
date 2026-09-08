@@ -109,4 +109,3 @@ When that works, continue with [Getting started](00-getting-started/README.md). 
 You do not need a C compiler for the first seven modules. The [C module](08-c/README.md) explains compiler choices when you reach it. You also do not need Jupyter, a database server, or a large Python distribution at the beginning. SQLite support comes with Python, and the course introduces extra tools only when they serve a lesson.
 
 The official [Python in Visual Studio Code guide](https://code.visualstudio.com/docs/languages/python) explains the editor, extension, and interpreter as three separate pieces. The [WinGet documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/) covers package searches, upgrades, and uninstall commands.
-

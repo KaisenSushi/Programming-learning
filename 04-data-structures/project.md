@@ -9,4 +9,3 @@ Use a directed graph and Kahn’s algorithm. Build an outgoing adjacency list an
 If the result contains fewer tasks than the graph, a cycle prevents a valid schedule. Raise `ValueError` with a clear message. Preserve deterministic behavior by processing tasks in their first appearance order. Do not mutate the input.
 
 Include tests for a chain, independent tasks, shared prerequisites, an implicit prerequisite, empty input, and a cycle. Explain why runtime is `O(V + E)` and additional storage is `O(V + E)`. Add a short design note comparing the queue, dictionary, set, and list responsibilities in your program. The [solutions](solutions.md) file contains one reference implementation after the exercise answers.
-

@@ -18,4 +18,3 @@ Answer in your own words. Include a small example where it helps.
 12. Why does the iterative Fibonacci function need only constant extra space?
 
 Use [solutions.md](solutions.md) to check your reasoning. If your wording differs but expresses the same precise idea, it can still be correct.
-

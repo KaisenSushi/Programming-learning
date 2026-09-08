@@ -11,4 +11,3 @@ Separate the work into at least three functions: normalization, frequency counti
 Before coding, write the contract and pseudocode. After coding, state time and space complexity in terms of the number of input characters and words. The intended solution runs in linear time on average. Finally, add a short reflection describing one test that changed your implementation and one design choice that made the code easier to understand.
 
 A reference implementation appears in [solutions.md](solutions.md), but complete and test your own version first.
-

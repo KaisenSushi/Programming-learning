@@ -16,4 +16,3 @@ Answer without running code. Explain each answer in one or two sentences. The ex
 10. When a complicated test fails, why is reducing it to a smaller counterexample useful?
 
 Check your responses against the [solutions](solutions.md). If an answer differs, return to the relevant lesson and write a new example of the concept in your own words.
-

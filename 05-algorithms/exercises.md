@@ -13,4 +13,3 @@ Write tests and state complexity for every solution. Use the simplest correct al
 7. Write `min_coins(amount, coins)` using dynamic programming. Return the minimum number of coins needed, or `None` when the amount cannot be formed. Assume a nonnegative amount and positive integer coin values.
 
 Trace at least one search, one traversal, and one dynamic programming table by hand. Compare the trace with your program’s changing variables before opening [solutions.md](solutions.md).
-

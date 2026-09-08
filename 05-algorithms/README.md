@@ -11,4 +11,3 @@ After the lessons, complete the exercises and quiz before opening the solutions.
 ## Optional video course
 
 MIT OpenCourseWare’s [Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) includes university lectures on sorting, graphs, shortest paths, and dynamic programming. The course goes deeper than this module, so use a related lecture after reading each lesson. The written material here is complete without the videos.
-

@@ -32,4 +32,3 @@ def prepend(head, value):
 The first node is called the head. An empty list can be represented by `None`. A doubly linked list gives each node both next and previous references, enabling constant-time removal when the exact node is already known, at the cost of more memory and more links to maintain.
 
 The abstract behavior matters more than the implementation. A stack promises access at one end; a queue promises arrival order. A linked list describes node connections. Python’s deque is implemented differently from the small linked examples, yet it satisfies the queue operations we need. Program against the required behavior, then choose an implementation whose costs match the workload.
-

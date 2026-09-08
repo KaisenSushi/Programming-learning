@@ -16,4 +16,3 @@ Answer each question and justify your choice. Several questions ask for expected
 10. Why must a traversal of a general graph track visited vertices?
 
 Review your responses using [solutions.md](solutions.md). For every missed question, draw or trace one concrete structure that demonstrates the correct behavior.
-

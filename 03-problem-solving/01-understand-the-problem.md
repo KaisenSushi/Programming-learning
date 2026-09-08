@@ -31,4 +31,3 @@ Finally, state assumptions in the function name, documentation, or surrounding e
 ## Check your understanding
 
 Rewrite this prompt as a precise contract: “Remove duplicates from a list.” Decide whether order must be preserved, whether the original list may change, and what should happen with an empty list.
-

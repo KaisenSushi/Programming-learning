@@ -29,4 +29,3 @@ To justify this algorithm, use an invariant: after each iteration, `largest` is 
 When designing your own algorithm, first write the direct solution. Identify the repeated or growing work. Then ask whether a set, dictionary, running total, stack, queue, or sorted order would make that work cheaper. Compare alternatives with input size and readability in mind. Do not optimize from instinct alone.
 
 Pseudocode should be detailed enough that another person could implement it without inventing missing rules. Include validation, loop order, state updates, and the exact returned result. Then trace the pseudocode against a normal case and at least two boundary cases before translating it into Python.
-

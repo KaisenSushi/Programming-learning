@@ -51,4 +51,3 @@ Never include real secrets, personal data, or active credentials. Use obvious sa
 6. Summarize the teaching problem and how the change addresses it.
 
 Use focused commits. A commit message such as `Clarify list mutation example` gives reviewers more information than `Update files`.
-

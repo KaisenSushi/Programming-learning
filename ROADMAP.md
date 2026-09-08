@@ -56,4 +56,3 @@ Take the quiz after a short break from the material. If you miss a question, ret
 Ask after you have recorded the command you ran, the exact result, what you expected, and one or two things you tried. Include the smallest code sample that still fails. This makes it easier for another person to help and often reveals the problem while you prepare the question.
 
 Good places to learn how technical collaboration works include [GitHub Discussions documentation](https://docs.github.com/en/discussions) and [Stack Overflow's guide to asking](https://stackoverflow.com/help/how-to-ask). Follow each community's rules before posting.
-
