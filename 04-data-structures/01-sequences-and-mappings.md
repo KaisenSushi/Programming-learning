@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-stacks-queues-linked-lists.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+Use a list when order and position matter. Use a set when you mainly need to know whether a value exists. Use a dictionary when one value, called a key, should lead to another value.
+
 Python lists store an ordered sequence and allow indexing by position. Reading or replacing `items[i]` takes `O(1)` time. Appending is amortized `O(1)`: an occasional resize is expensive, but the average cost over many appends is constant. Inserting or removing near the front is `O(n)` because later elements must shift. Searching an unsorted list is also `O(n)` in the worst case.
 
 A tuple has sequence behavior but cannot be changed after creation. Immutability makes intent clear and allows a tuple of hashable values to serve as a dictionary key. It does not make arbitrary access faster than list access.

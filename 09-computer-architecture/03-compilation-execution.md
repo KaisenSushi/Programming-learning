@@ -2,6 +2,10 @@
 
 [Previous lesson](02-cpu-memory.md) | [Module home](README.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Source code is written for people and programming tools. Those tools prepare instructions a processor can run. The operating system loads the program, gives it memory, and starts its first code.
+
 Source code is text written for people and language tools. A compiled language translates that source toward machine instructions before execution. In a typical C toolchain, preprocessing handles directives, compilation checks and translates a source file, assembly creates an object file, and linking combines objects and libraries into an executable.
 
 An object file contains machine code plus metadata and unresolved references. If one file calls a function defined in another file, the linker connects that call to the function's address. A static library contributes code during linking. A shared library is loaded separately and can be used by several programs, but the required compatible version must be present.

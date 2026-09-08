@@ -2,6 +2,10 @@
 
 [Previous lesson](01-language-basics.md) | [Module home](README.md) | [Next lesson](03-compilation.md)
 
+## Simple version
+
+A pointer stores an address. That address must point to valid memory of the right type before you use it. If the memory is gone or the address is outside its allowed area, the program is wrong even if it seems to work once.
+
 A pointer stores the address of an object or function. `&value` takes an address, while `*pointer` accesses the pointed-to object. Dereferencing is valid only when the pointer refers to a live object of a compatible type and the access stays within its bounds.
 
 ```c

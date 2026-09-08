@@ -2,6 +2,10 @@
 
 [Previous lesson](02-graph-traversal.md) | [Module home](README.md) | [Exercises](exercises.md) | [Project](project.md)
 
+## Simple version
+
+Some problems repeat the same smaller calculation many times. Dynamic programming saves those smaller answers and reuses them instead of doing the same work again.
+
 Dynamic programming helps when a problem contains smaller problems that repeat. Instead of solving the same smaller problem again, save its answer and reuse it. This idea can be implemented from the top down with memoization or from the bottom up with a table.
 
 Fibonacci numbers give a simple example. The definition says that each number is the sum of the previous two. A direct recursive function calculates the same earlier values many times, leading to exponential growth in calls. A bottom-up version keeps only the two values needed next.

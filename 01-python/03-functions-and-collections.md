@@ -2,6 +2,10 @@
 
 [Previous lesson](02-decisions-and-loops.md) | [Module home](README.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A function gives a job a name so you can use it again. A collection keeps several values together. Use both to split a large program into smaller parts you can understand and test.
+
 Functions name a unit of behavior. A useful function receives inputs through parameters, returns a result, and avoids unrelated work. Returning a value lets the caller decide whether to print it, store it, or use it in another calculation.
 
 ```python

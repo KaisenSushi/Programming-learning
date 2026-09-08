@@ -1,9 +1,23 @@
 # Testing and Debugging
 
-This module teaches a repeatable way to find defects and prevent them from returning. The examples use Python and its standard `unittest` library, so you can run everything without installing a test framework. You will learn how to turn requirements into focused tests, read failures without guessing, isolate a defect, and use a debugger or carefully chosen observations to inspect program state.
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-writing-tests.md)
 
-Start with [Writing Useful Tests](01-writing-tests.md), continue to [Debugging Systematically](02-debugging.md), and finish with [Test Design and Maintenance](03-test-design.md). Then complete the [exercises](exercises.md), take the [quiz](quiz.md), and build the [project](project.md). Check [solutions](solutions.md) only after making a serious attempt.
+A test checks that code gives the result you expect. Debugging is the work of finding out why the real result is different.
 
-By the end, you should be able to distinguish a failing test from a broken test environment, choose useful boundary cases, and produce a small bug report that another programmer can reproduce. Return to the [course roadmap](../ROADMAP.md) whenever you need the wider sequence.
+You do not need to guess or change random lines. A better method is to make the problem happen again, use the smallest input that still fails, and check one idea at a time.
 
-Optional video: [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/) includes lecture videos and examples on exceptions and unit tests. Use it after the lessons if seeing a teacher run tests would help.
+## Do these in order
+
+1. [Write useful tests](01-writing-tests.md)
+2. [Debug step by step](02-debugging.md)
+3. [Design and maintain tests](03-test-design.md)
+4. [Exercises](exercises.md)
+5. [Quiz](quiz.md)
+6. [Project](project.md)
+7. [Solutions](solutions.md)
+
+The examples use Python's built-in `unittest` tool. You do not need to install another package.
+
+You are done when you can turn a rule into a test, choose useful edge cases, reproduce a failure, and write down enough information for another person to see the same bug.
+
+[CS50's Python course](https://cs50.harvard.edu/python/) has optional videos about exceptions and unit tests.

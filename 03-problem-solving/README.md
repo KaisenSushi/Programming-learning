@@ -1,17 +1,23 @@
 # Problem Solving
 
-[Roadmap](../ROADMAP.md) | [Lesson 1](01-understand-the-problem.md) | [Lesson 2](02-design-an-algorithm.md) | [Lesson 3](03-test-and-improve.md) | [Exercises](exercises.md) | [Quiz](quiz.md) | [Project](project.md) | [Solutions](solutions.md)
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-understand-the-problem.md)
 
-Programming starts before code. A strong solution begins with a precise description of the problem, a few representative examples, and a plan that can be checked by hand. This module develops that habit. You will learn to separate inputs from outputs, identify constraints, turn a large task into smaller operations, and explain why an algorithm works.
+Good code starts with a clear problem. Before you write a loop or function, work out what goes in, what should come out, and which rules the program must follow.
 
-The lessons use short Python examples, but the reasoning applies to any language. Work through them in order. Write predictions before running each example, because prediction exposes gaps that a successful run can hide. After the lessons, complete the exercises without opening the solutions. The quiz checks vocabulary and judgment, while the project asks you to combine the full process in a small text-analysis program.
+This module gives you a process you can reuse. You will turn a vague request into small steps, test those steps with simple examples, and only then write code.
 
-By the end, you should be able to take an unfamiliar prompt, ask useful questions, choose a straightforward representation, estimate time and memory costs, and test important cases. A correct simple solution is the starting point. Optimization comes only after you can state what is slow and why.
+## Do these in order
 
-## Suggested pace
+1. [Understand the problem](01-understand-the-problem.md)
+2. [Design an algorithm](02-design-an-algorithm.md)
+3. [Test and improve it](03-test-and-improve.md)
+4. [Exercises](exercises.md)
+5. [Quiz](quiz.md)
+6. [Project](project.md)
+7. [Solutions](solutions.md)
 
-Spend one session on each lesson, one session on exercises and the quiz, and one or two sessions on the project. Keep a notebook of assumptions, failed examples, and corrections. That record is valuable evidence of how your reasoning improved.
+Write your guesses before running the examples. A correct result can hide the fact that you do not know why it worked.
 
-## Optional video
+You are done when you can take a new problem, list its rules, make a few useful examples, choose a simple way to store the data, and explain why your steps produce the right answer.
 
-Harvard’s official [CS50 course site](https://cs50.harvard.edu/x/) includes free lectures that model careful problem solving and debugging. The early algorithm lesson is a useful companion after this module, but the exercises here do not require it.
+For another explanation, use the free lessons on the [CS50 course site](https://cs50.harvard.edu/x/).

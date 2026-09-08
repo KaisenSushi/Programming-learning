@@ -2,6 +2,10 @@
 
 [Previous lesson](01-values-and-input.md) | [Module home](README.md) | [Next lesson](03-functions-and-collections.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+An `if` statement chooses which code runs. A loop repeats code. These two tools let the same program react to different input and handle more than one item.
+
 Control flow determines which statements run and how often they run. An `if` statement evaluates a condition and executes its indented block when the condition is true. Optional `elif` branches test further conditions in order, and `else` handles everything that remains.
 
 ```python

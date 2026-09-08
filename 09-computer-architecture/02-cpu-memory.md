@@ -2,6 +2,10 @@
 
 [Previous lesson](01-binary-data.md) | [Module home](README.md) | [Next lesson](03-compilation-execution.md)
 
+## Simple version
+
+The CPU follows instructions and works on data. Registers and cache keep small amounts close to the CPU. RAM holds active programs, while storage keeps files after the power is off.
+
 The central processing unit follows machine instructions. A simplified cycle fetches an instruction from memory, decodes what it means, executes it, and moves to the next instruction. Real processors overlap and reorder work for speed, but the simple cycle remains a good first model.
 
 Registers are tiny storage locations inside the CPU. Instructions use them for operands, addresses, and intermediate results. An instruction might load a value, add two registers, compare values, or branch to another instruction address. The instruction set architecture defines the visible contract between machine code and a processor family. x86-64 and AArch64 use different instruction encodings, so one executable normally cannot run directly on both.

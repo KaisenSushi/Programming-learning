@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-pointers-memory.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A C program starts at the `main` function. Every value has a type, and the compiler checks how you use it before the program is built.
+
 A C program is built from declarations and functions. Execution begins at `main`. Types determine how values are represented and which operations are meaningful.
 
 ```c

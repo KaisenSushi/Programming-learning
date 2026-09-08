@@ -2,6 +2,10 @@
 
 [Previous lesson](02-design-an-algorithm.md) | [Module home](README.md) | [Exercises](exercises.md) | [Project](project.md)
 
+## Simple version
+
+Do not only test the normal case. Test small, empty, repeated, ordered, and invalid inputs when the rules allow them. Each test should check one way the program could be wrong.
+
 Testing is a search for disagreement between the contract and the program. A few happy-path examples cannot establish much confidence. Choose cases by category: typical input, smallest valid input, empty input when allowed, repeated values, already ordered values, extreme values, and invalid input if the contract defines an error.
 
 Consider a function that checks whether brackets are balanced. `"([])"` is a normal success case. `"([)]"` exposes incorrect nesting, `")"` exposes an early closing bracket, and `"(("` exposes leftover opening brackets. Each case targets a different failure mode.

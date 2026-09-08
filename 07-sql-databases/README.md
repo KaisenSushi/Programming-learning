@@ -1,9 +1,23 @@
-# SQL and Relational Databases
+# SQL and Databases
 
-This module introduces relational design and portable SQL through a small library example. You will create tables with explicit keys, query related data, and update records safely. Examples use common SQL syntax and note where database products differ. Run experiments in a disposable local database, never against important data.
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-relational-design.md)
 
-Study [Tables and Relationships](01-relational-design.md), [Queries and Joins](02-queries.md), and [Changes and Transactions](03-transactions.md). Then complete the [exercises](exercises.md), [quiz](quiz.md), and [project](project.md). The [solutions](solutions.md) include expected query shapes and design reasoning.
+A database keeps information after a program closes. A relational database stores that information in tables and connects related rows with keys.
 
-The main goal is not memorizing keywords. It is learning to represent facts once, preserve valid relationships, and ask precise questions of the data. By completion, you should understand primary and foreign keys, normalization, joins, grouping, parameterized queries, indexes, and transaction boundaries. Use the [course roadmap](../ROADMAP.md) to see how this module connects to application development.
+This module uses a small library database. You will make tables, add data, find it with SQL, connect related tables, and update several facts safely.
 
-Optional video: [CS50 SQL](https://cs50.harvard.edu/sql/) provides free lecture videos and practice from Harvard. Watch a matching topic after reading its lesson, not as a replacement for writing queries yourself.
+## Do these in order
+
+1. [Tables and relationships](01-relational-design.md)
+2. [Queries and joins](02-queries.md)
+3. [Changes and transactions](03-transactions.md)
+4. [Exercises](exercises.md)
+5. [Quiz](quiz.md)
+6. [Project](project.md)
+7. [Solutions](solutions.md)
+
+Use a disposable local database while learning. Never test an update or delete on important data. Before changing rows, use a `SELECT` query with the same condition and check what it finds.
+
+You are done when you can design a few related tables, explain primary and foreign keys, write a join, use a parameter instead of joining user input into SQL text, and protect related changes with a transaction.
+
+[CS50 SQL](https://cs50.harvard.edu/sql/) has free optional videos and extra practice.

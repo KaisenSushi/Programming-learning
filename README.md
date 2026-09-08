@@ -1,47 +1,74 @@
 # Programming Learning
 
-This is a practical path from your first line of code to the ideas underneath modern software. You will learn Python first, use Git from the beginning, study the core data structures and algorithms, then move into databases, C, and computer architecture.
+This course teaches programming from the beginning. You do not need to know how code works yet.
 
-The course is meant to be worked through, not skimmed. Type the examples yourself. Make predictions before you run code. Keep failed attempts long enough to understand what happened. The exercises and projects matter as much as the reading.
+You will start with Python because it is easy to read. After that, you will learn Git, problem solving, data structures, algorithms, testing, databases, C, and how a computer runs your code.
 
-## Start here
+The course is free. Every module has lessons, exercises, a quiz, a project, and solutions.
 
-1. Follow the [Windows setup guide](SETUP-WINDOWS.md) if you still need Python, Git, or an editor.
-2. Read [How to use this course](ROADMAP.md).
-3. Set up a folder for your work during [Getting started](00-getting-started/README.md).
-4. Follow the modules in order unless the roadmap says a topic is optional.
-5. Try each exercise before opening its solution.
-6. Put your projects in separate Git repositories so your progress is visible.
+## If you have never coded before
 
-## Course map
+Start here:
 
-| Module | What you will learn | Main project |
+1. Open the [Windows setup guide](SETUP-WINDOWS.md).
+2. Install Python, Git, and Visual Studio Code with the commands in that guide.
+3. Go to [Getting started](00-getting-started/README.md).
+4. Read one lesson at a time.
+5. Type the code yourself. Do not only copy and paste it.
+6. Try the exercises before you open the solutions.
+
+You do not have to understand everything on the first try. If a lesson feels hard, run the smallest example and change one thing. Seeing what changes is part of learning.
+
+## What you will learn
+
+| Step | Topic | What you will be able to do |
 |---|---|---|
-| [00 Getting started](00-getting-started/README.md) | Tools, the terminal, and how programs run | A repeatable development setup |
-| [01 Python](01-python/README.md) | Data, control flow, functions, files, and objects | A command-line application |
-| [02 Git and GitHub](02-git-github/README.md) | Commits, branches, collaboration, and recovery | A reviewed project history |
-| [03 Problem solving](03-problem-solving/README.md) | Decomposition, invariants, tracing, and estimation | A small problem-solving toolkit |
-| [04 Data structures](04-data-structures/README.md) | Lists, stacks, queues, maps, trees, and graphs | A route and task organizer |
-| [05 Algorithms](05-algorithms/README.md) | Complexity, search, sorting, traversal, and dynamic programming | An algorithm comparison lab |
-| [06 Testing and debugging](06-testing-debugging/README.md) | Tests, debugging, boundaries, and failure analysis | A tested repair of a faulty program |
-| [07 SQL and databases](07-sql-databases/README.md) | Relational design, queries, joins, and transactions | A small library database |
-| [08 C](08-c/README.md) | Compilation, pointers, memory, and structs | A safe command-line data tool |
-| [09 Computer architecture](09-computer-architecture/README.md) | Binary, CPUs, memory, and the path from source to execution | A machine model notebook |
+| 00 | [Getting started](00-getting-started/README.md) | Set up your tools, use folders, and run a program |
+| 01 | [Python](01-python/README.md) | Write useful programs with input, decisions, loops, and functions |
+| 02 | [Git and GitHub](02-git-github/README.md) | Save your work, undo mistakes, and share a project |
+| 03 | [Problem solving](03-problem-solving/README.md) | Turn a problem into small steps you can test |
+| 04 | [Data structures](04-data-structures/README.md) | Choose a good way to store and find data |
+| 05 | [Algorithms](05-algorithms/README.md) | Search, sort, follow routes, and compare speed |
+| 06 | [Testing and debugging](06-testing-debugging/README.md) | Find bugs without guessing and stop them from coming back |
+| 07 | [SQL and databases](07-sql-databases/README.md) | Store related data and ask clear questions about it |
+| 08 | [C](08-c/README.md) | Work with memory and see how compiled programs are built |
+| 09 | [Computer architecture](09-computer-architecture/README.md) | Explain how code becomes work inside a computer |
 
-## What you need
+The [roadmap](ROADMAP.md) shows the full order and a simple weekly routine.
 
-You need a computer where you can install Python, Git, a text editor, and later a C compiler. The lessons use cross-platform commands where possible and call out platform differences when they matter. [Resources](RESOURCES.md) points to official downloads and references. [Videos](VIDEOS.md) lists optional lectures for learners who benefit from hearing and seeing an idea explained.
+## How to study
 
-No previous programming experience is required. Algebra at a school level helps, but the course explains the notation it uses.
+Use this loop for every lesson:
 
-## How progress works
+1. Read a small section.
+2. Type the example.
+3. Guess what it will do.
+4. Run it.
+5. Change one part and run it again.
+6. Write down what you learned in one sentence.
 
-Each module contains numbered chapters, exercises, a quiz, a project brief, and solutions. A good completion rule is simple: you can explain the main idea without reading, solve most exercises without help, and finish the project with tests or a clear manual test plan.
+Watching someone code is useful, but it is not the same as coding. The [video guide](VIDEOS.md) links free lessons you can use when you want another explanation. Return here and do the exercises after watching.
 
-If a module feels easy, do the project before skipping ahead. Projects expose gaps that reading can hide.
+## When something goes wrong
 
-## Contributing
+Errors are normal. Do not delete everything and restart right away.
 
-Corrections and teaching improvements are welcome. Read [Contributing](CONTRIBUTING.md) before opening an issue or pull request. By participating, you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
+Save these four things:
 
-This repository is available under the [MIT License](LICENSE).
+- the code you ran
+- the exact command you used
+- the full error message
+- what you expected to happen
+
+Start with the last line of a Python error. It usually tells you the error type and the first useful clue.
+
+## Useful pages
+
+- [Windows setup](SETUP-WINDOWS.md)
+- [Course roadmap](ROADMAP.md)
+- [Free videos](VIDEOS.md)
+- [Official downloads and references](RESOURCES.md)
+- [How to contribute](CONTRIBUTING.md)
+- [Writing style for this course](STYLE_GUIDE.md)
+
+This repository uses the [MIT License](LICENSE).

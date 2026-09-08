@@ -2,6 +2,10 @@
 
 [Previous lesson](01-how-computers-run-programs.md) | [Module home](README.md) | [Next lesson](03-terminal-and-files.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+Keep all course work in one folder and give each project its own folder inside it. A clean layout helps you find files, run the right commands, and undo mistakes.
+
 A good workspace makes mistakes easy to inspect and undo. Start with one parent folder for course work, then give each project its own directory. Avoid scattering source files across Downloads, the desktop, and temporary folders. A predictable location makes terminal navigation, backups, and version control much easier.
 
 Install Python 3 from the official Python website or your operating system package manager. On Windows, the installer can add Python to `PATH`. The `PATH` environment variable is a list of directories the shell searches when you enter a command. After installation, open a new terminal and check the version:

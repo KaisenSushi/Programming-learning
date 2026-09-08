@@ -2,6 +2,10 @@
 
 [Previous lesson](02-branches-and-recovery.md) | [Module home](README.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+GitHub stores a copy of your Git repository online. You send commits with `push` and get newer commits with `pull`. A pull request is a place to review a branch before it is joined into another branch.
+
 GitHub hosts Git repositories and adds issue tracking, pull requests, review, and automation. A remote is a local name for another repository location. The conventional name for the primary remote is `origin`, but that name has no special technical power.
 
 The simplest beginner workflow is to create an empty GitHub repository without an added README, license, or `.gitignore`, then connect an existing local repository. GitHub displays commands using the repository URL. They usually resemble:

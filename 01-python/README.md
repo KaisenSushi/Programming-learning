@@ -1,19 +1,21 @@
 # Python Foundations
 
-[Roadmap](../ROADMAP.md) | [Previous module](../00-getting-started/README.md) | [Next: Values and Input](01-values-and-input.md)
+[Roadmap](../ROADMAP.md) | [Previous module](../00-getting-started/README.md) | [Start lesson 1](01-values-and-input.md)
 
-This module teaches enough Python to write useful command-line programs and reason about their behavior. You will work with values, decisions, repetition, functions, and collections. The emphasis is on reading data carefully and organizing code so each part has one clear job.
+Python is where you start writing useful programs. You will make the computer read input, make decisions, repeat work, and keep related code together.
 
-Run every example with Python 3. When an example accepts input, test normal data and at least one awkward case. Read tracebacks from the last line upward until you find the first line that points into your program. Avoid changing several things at once when debugging.
+Do not try to memorize every word. Type the examples and focus on what data goes in, what the code does to it, and what comes out.
 
-## Module map
+## Do these in order
 
-1. [Values, Types, and Input](01-values-and-input.md)
-2. [Decisions and Loops](02-decisions-and-loops.md)
-3. [Functions and Collections](03-functions-and-collections.md)
+1. [Values, types, and input](01-values-and-input.md)
+2. [Decisions and loops](02-decisions-and-loops.md)
+3. [Functions and collections](03-functions-and-collections.md)
 4. [Exercises](exercises.md)
 5. [Quiz](quiz.md)
 6. [Project](project.md)
 7. [Solutions](solutions.md)
 
-The project is a study-session tracker. It combines parsing, validation, aggregation, and formatted output without requiring external packages. Once you finish, you should be able to explain the path data follows from user input to program output and identify where validation belongs.
+The project is a study-session tracker. It reads data, checks it, adds the values, and prints a clear result. It only uses tools that come with Python.
+
+You are done when you can explain how input moves through your program and becomes output. You should also be able to find the useful part of a Python error and test at least one bad input.

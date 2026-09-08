@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-branches-and-recovery.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+Git records saved points called commits. A commit does not happen by itself. You choose the changed files, save them as one useful step, and write a short message about what changed.
+
 Git stores snapshots of a project in a repository. A repository is the project directory plus a hidden `.git` directory containing history and settings. Before starting, verify Git is installed with `git --version`. On Windows, the setup lesson in the previous module provides installation choices.
 
 Tell Git the name and email to attach to new commits. These values become part of commit history, so choose information you are comfortable publishing:

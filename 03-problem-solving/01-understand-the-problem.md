@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-design-an-algorithm.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+Before you write code, make the question clear. Write down the input, the result, the rules, and a few examples. If those are unclear, the code will be unclear too.
+
 A vague problem produces vague code. Before choosing a loop or function, rewrite the task as a contract. State what information comes in, what result must come out, and which rules connect them. If a prompt says, “find the most common word,” important questions remain. Does capitalization matter? How is punctuation treated? What happens when two words tie? Is empty input allowed? Each answer changes the program.
 
 Begin with small examples that you can solve by hand. For a function that returns the first repeated number, `[4, 2, 7, 2]` should produce `2`. Also test an input with no repetition, one with an immediate repetition, and an empty list. Examples are not only tests. They force the contract to become concrete.

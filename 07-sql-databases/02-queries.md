@@ -2,6 +2,10 @@
 
 [Previous lesson](01-relational-design.md) | [Module home](README.md) | [Next lesson](03-transactions.md)
 
+## Simple version
+
+A query describes the data you want. `SELECT` chooses columns, `WHERE` filters rows, and `ORDER BY` controls their order. A join connects rows from related tables.
+
 A `SELECT` query describes the result you want. Name columns explicitly in maintained application queries so schema changes do not silently alter the result shape.
 
 ```sql

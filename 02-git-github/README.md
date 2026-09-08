@@ -1,19 +1,21 @@
 # Git and GitHub
 
-[Roadmap](../ROADMAP.md) | [Previous module](../01-python/README.md) | [Next: Tracking Changes](01-tracking-changes.md)
+[Roadmap](../ROADMAP.md) | [Previous module](../01-python/README.md) | [Start lesson 1](01-tracking-changes.md)
 
-Git records the history of a project on your computer. GitHub can store a copy of that repository online and provides tools for collaboration and review. They are related, but they are not the same product. You can learn and use Git without a GitHub account.
+Git saves the history of a project on your computer. GitHub can keep a copy online and help people review or work on it together.
 
-This module starts with a local repository, then introduces branches and safe recovery, and finally connects the repository to GitHub. Type each command inside a disposable practice project. Read `git status` before and after an operation so you can see what changed.
+They are not the same thing. Git is the tool that tracks changes. GitHub is a website that can store Git repositories.
 
-## Module map
+## Do these in order
 
-1. [Tracking Changes](01-tracking-changes.md)
-2. [Branches and Safe Recovery](02-branches-and-recovery.md)
-3. [Working with GitHub](03-working-with-github.md)
+1. [Track changes](01-tracking-changes.md)
+2. [Use branches and recover safely](02-branches-and-recovery.md)
+3. [Work with GitHub](03-working-with-github.md)
 4. [Exercises](exercises.md)
 5. [Quiz](quiz.md)
 6. [Project](project.md)
 7. [Solutions](solutions.md)
 
-The project asks you to publish a small Python repository through a feature branch. It uses only the workflow taught here. You will not rewrite shared history or use destructive cleanup commands.
+Practice inside a small test project. Run `git status` before and after each new command. It tells you what Git sees and helps you notice what changed.
+
+The project takes a small Python program from a local folder to GitHub through a separate branch. You are done when you can make a commit, create a branch, push it, and explain what each step saved.

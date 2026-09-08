@@ -2,6 +2,10 @@
 
 [Previous lesson](01-understand-the-problem.md) | [Module home](README.md) | [Next lesson](03-test-and-improve.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Write the steps of your solution before you turn them into code. Start with a clear method that works. Make it faster only when the input or measurements show that speed matters.
+
 An algorithm is a finite sequence of steps that transforms valid input into the promised output. It does not need to begin as code. Plain language, a diagram, or pseudocode often makes mistakes easier to see because syntax is not competing for attention.
 
 Suppose you need to find the second-largest distinct number in a list. A useful first plan is: remove duplicates, sort the remaining values, then select the next-to-last value. This approach is easy to explain and usually costs `O(n log n)` time because sorting dominates. It also uses `O(n)` extra space for the distinct values.

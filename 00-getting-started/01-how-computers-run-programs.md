@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-preparing-your-workspace.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+You write source code for people to read. Other tools turn it into instructions the computer can follow. When you run the program, the operating system gives it memory, processor time, and access to the files it is allowed to use.
+
 A computer follows instructions, but it does not understand a program the way a person understands a recipe. At the hardware level, a processor works with machine instructions represented as bits. Source code gives people a practical language for describing those instructions. A programming language and its tools bridge the gap between readable source code and work the processor can perform.
 
 Programs usually reach execution through compilation, interpretation, or a mixture of both. A compiler translates source code into another form before the program runs. C compilers commonly produce native machine code. An interpreter manages execution while the program is running. Python first compiles source into bytecode, then its virtual machine executes that bytecode. These categories help explain behavior, but real language implementations often combine techniques.
