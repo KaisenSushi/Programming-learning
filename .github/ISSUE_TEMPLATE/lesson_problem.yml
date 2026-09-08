@@ -1,0 +1,31 @@
+name: Lesson problem
+description: Report an error, confusing explanation, or broken example.
+title: "Lesson: "
+labels:
+  - lesson
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Lesson location
+      description: Name the file and heading where you found the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong
+      description: Explain what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include the smallest example, input, command, and tool version that reproduce the problem.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Share a correction or a clearer way to teach the point if you have one.
+

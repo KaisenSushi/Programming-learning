@@ -1,0 +1,29 @@
+name: Validate curriculum
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  curriculum:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Check root files
+        run: node scripts/verify-curriculum.mjs --root
+      - name: Check links
+        run: node scripts/verify-curriculum.mjs --links
+      - name: Check writing constraints
+        run: node scripts/verify-curriculum.mjs --style
+      - name: Test the constraint scanner
+        run: node scripts/verify-curriculum.mjs --self-test
+      - name: Check module structure
+        run: node scripts/verify-area.mjs 00-getting-started 01-python 02-git-github 03-problem-solving 04-data-structures 05-algorithms 06-testing-debugging 07-sql-databases 08-c 09-computer-architecture
+      - name: Check Python examples
+        run: python scripts/verify-python-examples.py
