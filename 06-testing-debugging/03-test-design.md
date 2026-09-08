@@ -2,6 +2,10 @@
 
 [Previous lesson](02-debugging.md) | [Module home](README.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Use many small tests for small rules and fewer large tests for whole workflows. Test the edges of allowed values because bugs often appear where valid input changes into invalid input.
+
 A growing test suite needs structure. The test pyramid is a useful planning model: many fast unit tests cover small decisions, fewer integration tests cover cooperation between components, and a small number of end-to-end tests cover important user journeys. It is not a quota. A parser may need hundreds of unit examples, while a database boundary deserves integration tests that use the same database engine as production.
 
 Choose cases with equivalence partitions and boundaries. If valid ages are 18 through 120, representative partitions include below 18, valid, and above 120. Boundaries include 17, 18, 120, and 121. This selection is more informative than several random middle values. Add a regression case whenever a real defect reveals a missing category.

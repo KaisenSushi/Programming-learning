@@ -2,6 +2,10 @@
 
 [Previous lesson](01-sequences-and-mappings.md) | [Module home](README.md) | [Next lesson](03-trees-heaps-graphs.md) | [Exercises](exercises.md)
 
+## Simple version
+
+A stack removes the newest item first. A queue removes the oldest waiting item first. A linked list stores items in separate nodes that point to the next node.
+
 A stack follows last in, first out order. The most recently pushed value is the first popped. Python lists implement stacks naturally with `append` and `pop`, both amortized `O(1)` at the end. Stacks appear in undo history, expression evaluation, parsing, and depth-first search.
 
 A queue follows first in, first out order. Removing index zero from a Python list costs `O(n)` because remaining elements shift. `collections.deque` supports `append` and `popleft` in `O(1)` time, making it the usual Python queue. Queues model waiting work and support breadth-first search.

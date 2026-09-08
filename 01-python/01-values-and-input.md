@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-decisions-and-loops.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A value is a piece of data, such as `12`, `3.5`, or `"hello"`. A variable gives that value a name. Input arrives as text, so you must convert it when you need a number.
+
 A Python program works by evaluating expressions and keeping references to values. In `price = 12.50`, Python creates a floating-point value and binds the name `price` to it. The equals sign performs assignment. It does not state a permanent mathematical equality, so `price = price + 1` is valid: Python evaluates the right side first, then makes the name refer to the new result.
 
 Common built-in types include `int` for whole numbers, `float` for approximate decimal values, `str` for text, `bool` for `True` or `False`, and `NoneType` for the single value `None`. Use `type(value)` while exploring, but write programs based on what operations the data should support. Strings can be joined with `+`; numbers can be added. Python deliberately rejects unclear mixtures such as `"3" + 4`.

@@ -2,6 +2,10 @@
 
 [Previous lesson](01-searching-and-sorting.md) | [Module home](README.md) | [Next lesson](03-dynamic-programming.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Graph traversal means following connections from one point to another. BFS checks nearby points first. DFS follows one path deeply before it comes back. Both record visited points so a cycle cannot trap them.
+
 A graph has vertices and edges. Traversal means visiting vertices by following edges. Breadth-first search, called BFS, explores one distance layer at a time. Depth-first search, called DFS, follows one path as far as it can before returning. Both need a visited set because a graph may contain cycles.
 
 BFS uses a queue. Put the start vertex in the queue and mark it visited. Repeatedly remove the oldest waiting vertex, then add each unvisited neighbor. In an unweighted graph, the first time BFS reaches a vertex, it has found a path using the fewest edges.

@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-graph-traversal.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+Linear search checks items one by one and works on any list. Binary search keeps cutting the search area in half, but it only works when the values are already sorted.
+
 Searching means finding whether a target is present, and often where it appears. Linear search checks values from left to right. It works on any sequence and takes `O(n)` time in the worst case because the target may be last or missing.
 
 Binary search is faster on sorted data. Compare the target with the middle value. If the target is smaller, discard the right half. If it is larger, discard the left half. Each comparison halves the remaining search area, so the worst-case time is `O(log n)`. The sorted-input requirement is essential.

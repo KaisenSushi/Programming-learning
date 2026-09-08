@@ -2,6 +2,10 @@
 
 [Previous lesson](02-pointers-memory.md) | [Module home](README.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Building a C program happens in stages. Source files are checked and turned into object files. The linker then connects those files and the libraries they use to make the final program.
+
 C source passes through preprocessing, compilation, assembly, and linking. The preprocessor expands includes and macros. Each source file is compiled into an object file. The linker combines object files and libraries, resolving external symbols into an executable. Recognizing the stage helps interpret errors: a syntax or type error comes from compilation, while an undefined reference generally comes from linking.
 
 Headers publish declarations shared between translation units. Put definitions in source files and guard headers against repeated inclusion:

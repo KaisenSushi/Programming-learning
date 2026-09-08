@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-queries.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A table stores one kind of thing. Each row is one item, and each column stores one fact about it. A key gives every row a reliable identity and connects related rows in other tables.
+
 A relational database stores facts in tables. A row represents one occurrence, such as one book or member, while a column represents one attribute. Each table needs a primary key whose value uniquely identifies a row. A generated integer is convenient, but a natural value can work when it is truly stable and unique.
 
 ```sql

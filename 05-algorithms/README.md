@@ -1,13 +1,23 @@
 # Algorithms
 
-[Roadmap](../ROADMAP.md) | [Lesson 1](01-searching-and-sorting.md) | [Lesson 2](02-graph-traversal.md) | [Lesson 3](03-dynamic-programming.md) | [Exercises](exercises.md) | [Quiz](quiz.md) | [Project](project.md) | [Solutions](solutions.md)
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-searching-and-sorting.md)
 
-An algorithm is a repeatable way to solve a problem. This module studies three families that appear often: searching and sorting, graph traversal, and dynamic programming. The goal is not to memorize code. You will learn what each method assumes, why it works, and how its work grows when the input grows.
+An algorithm is a set of steps for solving a problem. You already use algorithms when you follow directions or look through a list one item at a time.
 
-Start with the simplest version of each idea. Trace it using a tiny example, then run the Python code. Pay attention to what each variable means. Complexity notation such as `O(n)` describes growth. It does not predict an exact number of seconds.
+This module covers ways to search, sort, move through connected data, and reuse answers to smaller problems. The goal is not to memorize code. The goal is to know when a method works and what happens when the input gets bigger.
 
-After the lessons, complete the exercises and quiz before opening the solutions. The project combines several ideas in a route-finding program. By the end, you should be able to choose between linear and binary search, explain common sorting costs, traverse a graph safely, and recognize repeated subproblems that dynamic programming can reuse.
+## Do these in order
 
-## Optional video course
+1. [Searching and sorting](01-searching-and-sorting.md)
+2. [Graph traversal](02-graph-traversal.md)
+3. [Dynamic programming](03-dynamic-programming.md)
+4. [Exercises](exercises.md)
+5. [Quiz](quiz.md)
+6. [Project](project.md)
+7. [Solutions](solutions.md)
 
-MIT OpenCourseWare’s [Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) includes university lectures on sorting, graphs, shortest paths, and dynamic programming. The course goes deeper than this module, so use a related lecture after reading each lesson. The written material here is complete without the videos.
+Start with tiny examples. Trace each step on paper before running the code. `O(n)` and similar forms describe how work grows. They do not tell you the exact number of seconds.
+
+You are done when you can choose a search method, explain common sorting costs, move through a graph without getting stuck in a cycle, and notice when a problem repeats the same smaller work.
+
+For deeper lessons later, use [MIT's free algorithm videos](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-videos/).

@@ -2,6 +2,10 @@
 
 [Previous lesson](02-queries.md) | [Module home](README.md) | [Exercises](exercises.md)
 
+## Simple version
+
+Database changes can affect one row or every row. Check your condition with `SELECT` first. Use a transaction when several changes must all succeed together or all be cancelled together.
+
 `INSERT`, `UPDATE`, and `DELETE` change stored data. Before running an update or delete, write a `SELECT` with the same condition and inspect the target rows. Omitting `WHERE` affects every row. Use a disposable database while learning and maintain tested backups for valuable systems.
 
 ```sql

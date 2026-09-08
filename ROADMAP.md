@@ -1,58 +1,101 @@
 # Roadmap
 
-This roadmap gives the course an order, but it is not a race. A learner with five focused hours each week might finish in six to nine months. Someone studying full time may move faster. The useful measure is what you can build and explain, not how many files you have opened.
+Follow the modules in order if you are new. Each one uses ideas from the earlier modules.
 
-## Phase 1: Learn the working environment
+There is no perfect speed. Five focused hours each week may take six to nine months. More time may make it faster, but finishing pages is not the goal. The goal is being able to build something and explain how it works.
 
-Start with [Getting started](00-getting-started/README.md). Learn what a program is, set up your editor and language tools, and practice navigating from a terminal. Finish the setup project on the same machine you expect to use for the course.
+## Part 1: Get comfortable with code
 
-Then study [Python](01-python/README.md). Spend extra time here. Python supplies the examples for problem solving, data structures, algorithms, and testing. Build small variations of every example instead of copying it once.
+### 00. Getting started
 
-Complete [Git and GitHub](02-git-github/README.md) before your Python project grows large. Use a repository for every later project. Small, focused commits give you checkpoints and make experiments less risky.
+Learn where your files are, how to use a terminal, and what happens when a program runs.
 
-Checkpoint: you can write a Python program with functions and file input, run it from a terminal, diagnose a basic error, and save the work in a Git repository.
+You are ready to move on when you can:
 
-## Phase 2: Think about programs
+- open your course folder in Visual Studio Code
+- create and run a Python file
+- move between folders in a terminal
+- copy the exact error when a command fails
 
-[Problem solving](03-problem-solving/README.md) teaches a repeatable way to move from a vague request to a testable solution. Do the tracing work on paper. It may feel slower at first, but it prevents hours of random editing later.
+### 01. Python
 
-[Data structures](04-data-structures/README.md) explains how the shape of data affects the operations you can perform efficiently. Implement the small versions even when Python already provides a built-in type. The point is to see the tradeoffs.
+This is the most important beginner module. Take your time with it. You will use Python again in later modules.
 
-[Algorithms](05-algorithms/README.md) connects correctness to resource use. Measure real inputs, but also learn to reason about growth before you benchmark.
+You are ready to move on when you can:
 
-Checkpoint: you can choose a useful representation, explain the expected running time of a solution, and defend its correctness with examples and invariants.
+- get input and print a result
+- use `if`, loops, and functions
+- store several values in a list or dictionary
+- check bad input instead of letting the program fail in a confusing way
 
-## Phase 3: Build reliable software
+### 02. Git and GitHub
 
-[Testing and debugging](06-testing-debugging/README.md) should change how you approach every later project. Treat a failure as evidence. Reduce it to the smallest repeatable case, state your theory, and test that theory.
+Git gives you saved points for a project. GitHub lets you keep a copy online and share it.
 
-[SQL and databases](07-sql-databases/README.md) introduces durable, shared data. You will design tables, write queries, and learn why transactions protect related changes.
+You are ready to move on when you can create a repository, make a commit, create a branch, and push your work to GitHub.
 
-Checkpoint: you can turn requirements into tests, debug from observations, design a small relational schema, and query it without duplicating facts unnecessarily.
+## Part 2: Learn how to solve problems
 
-## Phase 4: Look below the language
+### 03. Problem solving
 
-[C](08-c/README.md) makes memory and compilation visible. Work carefully. Compiler warnings and memory-checking tools are part of the exercise, not optional polish.
+Do not start with code. First work out the input, the result, the rules, and a few examples.
 
-[Computer architecture](09-computer-architecture/README.md) connects source code to instructions, memory, and hardware. It will also make earlier lessons about performance and representation more concrete.
+### 04. Data structures
 
-Final checkpoint: you can describe how source code becomes a running process, explain where its data lives, and investigate a correctness or performance problem across more than one layer.
+Learn why the way you store data changes how easy and fast an operation can be.
 
-## A weekly routine
+### 05. Algorithms
 
-A steady week can follow this pattern:
+Learn common ways to search, sort, and move through connected data. You will also learn how to describe how work grows when the input gets bigger.
 
-1. Read one chapter and type every example.
-2. Change the examples and predict each result.
-3. Complete the chapter exercises without the solution file open.
-4. Review mistakes and write a short note about each one.
-5. Spend one longer session on the module project.
-6. Commit the finished work with a message that says what changed and why.
+You are ready for the next part when you can explain why you chose a certain structure or algorithm. You do not need to remember every piece of code.
 
-Take the quiz after a short break from the material. If you miss a question, return to the relevant example and produce your own explanation before checking the supplied answer.
+## Part 3: Make programs reliable
 
-## When to ask for help
+### 06. Testing and debugging
 
-Ask after you have recorded the command you ran, the exact result, what you expected, and one or two things you tried. Include the smallest code sample that still fails. This makes it easier for another person to help and often reveals the problem while you prepare the question.
+Learn how to prove that code works and how to investigate a bug without changing random lines.
 
-Good places to learn how technical collaboration works include [GitHub Discussions documentation](https://docs.github.com/en/discussions) and [Stack Overflow's guide to asking](https://stackoverflow.com/help/how-to-ask). Follow each community's rules before posting.
+### 07. SQL and databases
+
+Learn how programs store connected facts, find them again, and update them safely.
+
+You are ready to move on when you can turn a rule into a test, reproduce a bug, design a small database, and write a query that joins related tables.
+
+## Part 4: See what happens below Python
+
+### 08. C
+
+C makes memory more visible. Work slowly, keep compiler warnings turned on, and fix warnings before moving on.
+
+### 09. Computer architecture
+
+Connect everything you learned to bits, memory, processor instructions, and running programs.
+
+You have finished the main path when you can describe how source code becomes a running process and build the final projects without following a full solution.
+
+## A simple week
+
+Try this routine:
+
+1. Read one lesson and type every example.
+2. Change the examples and guess the result before running them.
+3. Do the exercises without the solution page open.
+4. Read your mistakes and write down what caused them.
+5. Spend one longer session on the project.
+6. Save finished work with Git.
+
+If you only have one hour, read less and type more. Ten minutes of real practice is better than an hour of skipping through videos.
+
+## How to ask for help
+
+Include:
+
+- what you are trying to do
+- the smallest code that still has the problem
+- the exact command you ran
+- the full error
+- what you expected
+- what you already tried
+
+Do not post passwords, secret keys, or private files. Read [GitHub's guide to discussions](https://docs.github.com/en/discussions) and [Stack Overflow's guide to asking](https://stackoverflow.com/help/how-to-ask) before posting in those communities.

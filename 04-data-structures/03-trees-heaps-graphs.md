@@ -2,6 +2,10 @@
 
 [Previous lesson](02-stacks-queues-linked-lists.md) | [Module home](README.md) | [Exercises](exercises.md) | [Project](project.md)
 
+## Simple version
+
+A tree stores parent and child relationships. A heap keeps the next highest or lowest priority easy to reach. A graph stores things and the connections between them.
+
 A tree connects nodes in a hierarchy. Each node except the root has one parent, and a node may have children. File systems and syntax trees fit this model. A binary tree limits each node to left and right children. A binary search tree additionally keeps smaller keys on the left and larger keys on the right. Search is `O(h)`, where `h` is tree height. It is `O(log n)` when the tree stays balanced, but `O(n)` when insertion order creates a chain.
 
 A heap is a partially ordered tree commonly stored in a list. In a min-heap, the smallest item is at the root. Python’s `heapq` inserts and removes the smallest value in `O(log n)`, while reading it takes `O(1)`. A heap is ideal for repeatedly selecting the next priority, but it does not keep every value fully sorted.

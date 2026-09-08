@@ -7,7 +7,7 @@ const moduleNames = [
   '04-data-structures', '05-algorithms', '06-testing-debugging',
   '07-sql-databases', '08-c', '09-computer-architecture'
 ];
-const rootFiles = ['README.md', 'ROADMAP.md', 'RESOURCES.md', 'VIDEOS.md', 'SETUP-WINDOWS.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'LICENSE'];
+const rootFiles = ['README.md', 'ROADMAP.md', 'RESOURCES.md', 'VIDEOS.md', 'SETUP-WINDOWS.md', 'STYLE_GUIDE.md', 'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'LICENSE'];
 const mode = process.argv[2];
 const errors = [];
 const deceptivePatterns = [

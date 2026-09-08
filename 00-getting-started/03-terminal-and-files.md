@@ -2,6 +2,10 @@
 
 [Previous lesson](02-preparing-your-workspace.md) | [Module home](README.md) | [Exercises](exercises.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A terminal is a window where you type commands. The shell is the program that reads those commands. Most file commands act on your current folder, so check that folder when a command cannot find something.
+
 A terminal is a text interface to a shell. The terminal displays characters and accepts keyboard input. The shell reads commands, locates programs, expands paths, and reports results. PowerShell, Bash, and Zsh are different shells, so their command syntax is not always interchangeable.
 
 Every shell session has a current working directory. Relative paths begin there. Absolute paths identify a location from a filesystem root. In PowerShell, inspect your current directory and list its contents with:

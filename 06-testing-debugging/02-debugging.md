@@ -2,6 +2,10 @@
 
 [Previous lesson](01-writing-tests.md) | [Module home](README.md) | [Next lesson](03-test-design.md)
 
+## Simple version
+
+Make the bug happen again with the smallest input you can find. Record what you expected and what actually happened. Then test one possible cause at a time.
+
 Debugging works best as an investigation. Begin by reproducing the failure with the smallest dependable input. Record the exact command, input, expected result, and actual result. If the problem cannot be reproduced, gather more observations rather than editing code at random. A traceback is a route through the program: read the final exception first, then follow the application frames back toward the call that supplied the bad state.
 
 Consider a function that averages measurements:

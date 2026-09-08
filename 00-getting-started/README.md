@@ -1,19 +1,21 @@
 # Getting Started
 
-[Roadmap](../ROADMAP.md) | [Next: How Computers Run Programs](01-how-computers-run-programs.md)
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-how-computers-run-programs.md)
 
-This module gives you the working habits and mental model needed for the rest of the course. You will learn what happens between writing a line of source code and seeing a result, how to prepare a dependable workspace, and how to use a terminal without treating it as magic. The goal is not to memorize every command. It is to understand where files live, what program is running, and how to read the feedback that tools provide.
+This module gets your computer ready for the course. It also explains what happens when you run a program.
 
-Work through the lessons in order. Type the examples yourself and deliberately change them. A useful learning session ends with a small observation written in your own words, such as why a command failed or which directory contained a file. After the lessons, complete the exercises without looking at the solutions. The quiz checks vocabulary and reasoning. The project asks you to create and inspect a small workspace that later modules can reuse.
+You will learn how to use folders, open a terminal, run Python, and understand basic error messages. You do not need to remember every command. You only need to know what folder you are in, what program you are running, and where to look when it fails.
 
-## Module map
+## Do these in order
 
-1. [How Computers Run Programs](01-how-computers-run-programs.md)
-2. [Preparing Your Workspace](02-preparing-your-workspace.md)
-3. [Terminal and Files](03-terminal-and-files.md)
+1. [How computers run programs](01-how-computers-run-programs.md)
+2. [Prepare your workspace](02-preparing-your-workspace.md)
+3. [Use the terminal and files](03-terminal-and-files.md)
 4. [Exercises](exercises.md)
 5. [Quiz](quiz.md)
 6. [Project](project.md)
 7. [Solutions](solutions.md)
 
-You need a text editor, Python 3, and a terminal. Examples show commands for both PowerShell and common Unix shells when their syntax differs.
+Type each example yourself. Change one part and run it again. If a command fails, save the command and the full error before trying something else.
+
+You are done when you can create a folder, open it in Visual Studio Code, make a Python file, and run that file from a terminal.

@@ -2,6 +2,10 @@
 
 [Previous lesson](01-tracking-changes.md) | [Module home](README.md) | [Next lesson](03-working-with-github.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A branch gives you a separate place to work on a change. If the idea works, you can join it back into the main work. If it does not, the main work is still safe.
+
 A branch is a movable name pointing to a commit. Branches let you develop a change without placing unfinished work on the main line. They are lightweight, so creating a branch for a focused change is normal.
 
 Start from a clean working tree and create a branch:

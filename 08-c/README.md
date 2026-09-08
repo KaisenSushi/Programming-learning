@@ -1,9 +1,29 @@
 # C Programming
 
-C makes data representation and resource lifetime visible. That clarity is useful, but it also means the programmer must prevent out-of-bounds access, invalid pointers, leaks, and undefined behavior. Work in small steps, enable compiler warnings, and use sanitizers where your toolchain supports them.
+[Roadmap](../ROADMAP.md) | [Start lesson 1](01-language-basics.md)
 
-Begin with [Types, Control Flow, and Functions](01-language-basics.md), continue to [Pointers and Memory](02-pointers-memory.md), and finish with [Compilation and Program Structure](03-compilation.md). Complete the [exercises](exercises.md), [quiz](quiz.md), and [project](project.md), then compare with [solutions](solutions.md).
+C lets you see details that Python normally handles for you. You will work more directly with memory, addresses, files, and compiled programs.
 
-Examples target standard C11. A common GCC or Clang command is `cc -std=c11 -Wall -Wextra -Wpedantic source.c -o program`. Compiler and operating-system details vary, so adapt executable names without removing warnings. By the end, you should be able to build a multi-file program, pass arrays with explicit lengths, allocate and release memory on all paths, and explain why apparently working undefined behavior is still incorrect. Return to the [course roadmap](../ROADMAP.md) for context.
+This also means you can make mistakes that Python prevents. Work in small steps. Keep compiler warnings on. Fix warnings instead of hiding them.
 
-Optional video: [CS50x Week 1, C](https://cs50.harvard.edu/x/weeks/1/) demonstrates C basics with lecture video and notes. Pause often and type the small examples yourself.
+## Do these in order
+
+1. [Types, control flow, and functions](01-language-basics.md)
+2. [Pointers and memory](02-pointers-memory.md)
+3. [Compilation and program structure](03-compilation.md)
+4. [Exercises](exercises.md)
+5. [Quiz](quiz.md)
+6. [Project](project.md)
+7. [Solutions](solutions.md)
+
+The examples use standard C11. A common build command is:
+
+```text
+cc -std=c11 -Wall -Wextra -Wpedantic source.c -o program
+```
+
+Your compiler may use a different name, but keep the warning options when it supports them.
+
+You are done when you can build a program from more than one file, pass an array with its length, check pointers, and free memory on every path that owns it.
+
+[CS50x Week 1](https://cs50.harvard.edu/x/weeks/1/) has an optional C lecture and notes.

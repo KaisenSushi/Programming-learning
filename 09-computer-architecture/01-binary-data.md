@@ -2,6 +2,10 @@
 
 [Module home](README.md) | [Next lesson](02-cpu-memory.md) | [Roadmap](../ROADMAP.md)
 
+## Simple version
+
+A bit is either 0 or 1. A group of bits only has meaning when software and hardware agree on how to read it, such as a number, letter, color, or instruction.
+
 A bit has two possible values, written as 0 and 1. A byte is commonly eight bits. Bits do not carry meaning by themselves. Software and hardware agree on an interpretation, such as an unsigned number, a character, a color component, or part of an instruction.
 
 Decimal is base ten, so each position has ten times the value of the position to its right. Binary is base two. The binary value `10110` means:
