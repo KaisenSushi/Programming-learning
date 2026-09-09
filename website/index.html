@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A free programming course for people starting from zero and people filling gaps in what they already know">
+  <meta name="description" content="A free programming course with lessons exercises quizzes projects and solutions">
   <meta name="theme-color" content="#0d1117">
   <meta property="og:title" content="Programming Learning">
-  <meta property="og:description" content="Start from zero or go deeper without getting lost">
+  <meta property="og:description" content="A simple programming course for new and experienced learners">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://kaisensushi.github.io/Programming-learning/assets/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -15,165 +15,210 @@
   <script src="assets/app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#course">skip to the course</a>
+  <a class="skip-link" href="#content">skip to the course</a>
 
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Programming Learning home">
-        <span class="brand-mark" aria-hidden="true">PL</span>
-        <span>Programming Learning</span>
+    <div class="site-header-inner">
+      <a class="repo-path" href="https://github.com/KaisenSushi/Programming-learning">
+        <span>KaisenSushi</span> / <strong>Programming-learning</strong>
       </a>
-
-      <nav class="top-nav" aria-label="Main links">
-        <a href="#course">course</a>
-        <a href="#setup">setup</a>
-        <a href="https://github.com/KaisenSushi/Programming-learning">GitHub</a>
-      </nav>
+      <a class="source-link" href="https://github.com/KaisenSushi/Programming-learning">view source</a>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">free course · no experience needed</p>
-          <h1>Learn programming<br><span>without getting lost</span></h1>
-          <p class="hero-text">Start from zero or skip to the parts you need</p>
-          <p class="hero-text">Every module has lessons exercises a quiz a project and answers</p>
+  <div class="page-shell">
+    <aside class="sidebar" aria-label="Page links">
+      <nav>
+        <a href="#start">Start here</a>
+        <a href="#paths">Choose a path</a>
+        <a href="#course">Course</a>
+        <a href="#setup">Setup</a>
+        <a href="#study">How to study</a>
+        <a href="#videos">Videos</a>
+      </nav>
+    </aside>
 
-          <div class="hero-actions">
-            <a class="button button-primary" href="#course">start learning</a>
-            <a class="button" href="https://github.com/KaisenSushi/Programming-learning">view on GitHub</a>
+    <main id="content" class="markdown-body">
+      <h1>Programming Learning</h1>
+      <p class="lead">A free course that starts with the basics and goes into harder topics</p>
+      <p class="course-size">10 modules&nbsp;&nbsp; 30 lessons&nbsp;&nbsp; 10 projects</p>
+
+      <section id="start">
+        <h2>Start here</h2>
+        <p>If you are new start with module 00 and follow the course in order</p>
+        <ol>
+          <li>Set up your computer</li>
+          <li>Read one lesson</li>
+          <li>Do the exercise</li>
+          <li>Try the quiz and project</li>
+          <li>Check the solution after you try</li>
+        </ol>
+      </section>
+
+      <section id="paths">
+        <h2>Choose a path</h2>
+        <h3 id="for-beginners">If you are new</h3>
+        <p>Start at 00 and go in order. The lessons explain each new word before using it</p>
+        <h3 id="for-advanced">If you know some code</h3>
+        <p>Open the quiz or project first. Use the lessons when you find something you do not know</p>
+      </section>
+
+      <section id="course">
+        <h2>Course</h2>
+
+        <section class="module" id="module-00">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/00-getting-started">00 Getting started</a></h3>
+          <p>Learn what code is and get your computer ready</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/01-how-computers-run-programs.md">How computers run programs</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/02-preparing-your-workspace.md">Preparing your workspace</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/03-terminal-and-files.md">Terminal and files</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/00-getting-started/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-01">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/01-python">01 Python</a></h3>
+          <p>Write programs with values choices loops functions and files</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/01-values-and-input.md">Values and input</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/02-decisions-and-loops.md">Decisions and loops</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/03-functions-and-collections.md">Functions and collections</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/01-python/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-02">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/02-git-github">02 Git and GitHub</a></h3>
+          <p>Save your work and share it without losing changes</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/01-tracking-changes.md">Tracking changes</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/02-branches-and-recovery.md">Branches and recovery</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/03-working-with-github.md">Working with GitHub</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/02-git-github/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-03">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/03-problem-solving">03 Problem solving</a></h3>
+          <p>Break a problem into small parts and check your answer</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/01-understand-the-problem.md">Understand the problem</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/02-design-an-algorithm.md">Design an algorithm</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/03-test-and-improve.md">Test and improve</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/03-problem-solving/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-04">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/04-data-structures">04 Data structures</a></h3>
+          <p>Learn different ways to store and find data</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/01-sequences-and-mappings.md">Sequences sets and mappings</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/02-stacks-queues-linked-lists.md">Stacks queues and linked lists</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/03-trees-heaps-graphs.md">Trees heaps and graphs</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/04-data-structures/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-05">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/05-algorithms">05 Algorithms</a></h3>
+          <p>Learn common ways to search sort and follow routes</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/01-searching-and-sorting.md">Searching and sorting</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/02-graph-traversal.md">Graph traversal</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/03-dynamic-programming.md">Dynamic programming</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/05-algorithms/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-06">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/06-testing-debugging">06 Testing and debugging</a></h3>
+          <p>Check your code and find bugs without guessing</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/01-writing-tests.md">Writing useful tests</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/02-debugging.md">Debugging step by step</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/03-test-design.md">Test design and maintenance</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/06-testing-debugging/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-07">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/07-sql-databases">07 SQL and databases</a></h3>
+          <p>Store related data and find it again</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/01-relational-design.md">Tables and relationships</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/02-queries.md">Queries and joins</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/03-transactions.md">Changes and transactions</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/07-sql-databases/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-08">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/08-c">08 C</a></h3>
+          <p>Learn how compiled programs and memory work</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/01-language-basics.md">Language basics</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/02-pointers-memory.md">Pointers and memory</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/03-compilation.md">Compilation and program structure</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/08-c/solutions.md">Solutions</a></p>
+        </section>
+
+        <section class="module" id="module-09">
+          <h3><a href="https://github.com/KaisenSushi/Programming-learning/tree/course/complete-curriculum/09-computer-architecture">09 Computer architecture</a></h3>
+          <p>See how code becomes work inside a computer</p>
+          <ul class="lesson-list">
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/01-binary-data.md">Bits and data</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/02-cpu-memory.md">CPU and memory</a></li>
+            <li><a class="lesson-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/03-compilation-execution.md">From source to execution</a></li>
+          </ul>
+          <p class="module-work"><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/exercises.md">Exercises</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/quiz.md">Quiz</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/project.md">Project</a> <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/09-computer-architecture/solutions.md">Solutions</a></p>
+        </section>
+      </section>
+
+      <section id="setup">
+        <h2>Windows setup</h2>
+        <p>Open PowerShell and run these commands one at a time</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>PowerShell</span>
+            <button id="copy-setup" type="button">Copy</button>
           </div>
-
-          <div class="hero-facts" aria-label="Course facts">
-            <div><strong>10</strong><span>modules</span></div>
-            <div><strong>30</strong><span>lessons</span></div>
-            <div><strong>10</strong><span>projects</span></div>
-          </div>
-        </div>
-
-        <aside class="next-card" aria-labelledby="next-title">
-          <p class="card-label">your next step</p>
-          <h2 id="next-title">Start with setup</h2>
-          <p id="next-description">Get Python Git and an editor ready</p>
-          <a id="next-link" class="text-link" href="#setup">open setup</a>
-          <div class="overall-progress" aria-label="Course progress">
-            <div class="progress-copy"><span>course progress</span><strong id="progress-label">0%</strong></div>
-            <div class="progress-track"><span id="progress-bar"></span></div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="path-section" aria-labelledby="path-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">pick what fits you</p>
-          <h2 id="path-title">One course two ways to use it</h2>
-        </div>
-      </div>
-
-      <div class="path-grid">
-        <button class="path-card is-active" type="button" data-mode="beginner" aria-pressed="true">
-          <span class="path-number">01</span>
-          <strong>i am new</strong>
-          <span>plain words clear order and one next step</span>
-        </button>
-        <button class="path-card" type="button" data-mode="advanced" aria-pressed="false">
-          <span class="path-number">02</span>
-          <strong>i know some code</strong>
-          <span>test yourself first then fill the gaps</span>
-        </button>
-      </div>
-    </section>
-
-    <section id="course" class="course-section" aria-labelledby="course-title">
-      <div class="section-heading course-heading">
-        <div>
-          <p class="eyebrow">the full path</p>
-          <h2 id="course-title">Course modules</h2>
-          <p id="mode-note">Follow these from 00 to 09</p>
-        </div>
-
-        <label class="search-box" for="course-search">
-          <span>search</span>
-          <input id="course-search" type="search" placeholder="python git memory" autocomplete="off">
-          <kbd>/</kbd>
-        </label>
-      </div>
-
-      <div id="module-list" class="module-list" aria-live="polite"></div>
-      <p id="empty-state" class="empty-state" hidden>No module matches that search</p>
-    </section>
-
-    <section id="setup" class="setup-section" aria-labelledby="setup-title">
-      <div class="setup-copy">
-        <p class="eyebrow">windows setup</p>
-        <h2 id="setup-title">Install what you need</h2>
-        <p>Open PowerShell and run one line at a time</p>
-        <p>You only need Python Git and Visual Studio Code to start</p>
-        <a class="text-link" href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/SETUP-WINDOWS.md">open the full setup guide</a>
-      </div>
-
-      <div class="command-card">
-        <div class="command-top">
-          <span>PowerShell</span>
-          <button id="copy-setup" type="button">copy</button>
-        </div>
-        <pre><code id="setup-code">winget install --exact --id Python.Python.3.14
+          <pre><code id="setup-code">winget install --exact --id Python.Python.3.14
 winget install --exact --id Git.Git
 winget install --exact --id Microsoft.VisualStudioCode</code></pre>
+        </div>
         <p id="copy-status" role="status" aria-live="polite"></p>
-      </div>
-    </section>
+        <p><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/SETUP-WINDOWS.md">Read the full Windows setup guide</a></p>
+      </section>
 
-    <section class="study-section" aria-labelledby="study-title">
-      <div>
-        <p class="eyebrow">how to use a lesson</p>
-        <h2 id="study-title">Keep it simple</h2>
-      </div>
-      <div class="study-steps">
-        <span>read one small part</span>
-        <span>type the example</span>
-        <span>guess what happens</span>
-        <span>run it</span>
-        <span>change one thing</span>
-        <span>run it again</span>
-      </div>
-    </section>
-  </main>
+      <section id="study">
+        <h2>How to study</h2>
+        <ul>
+          <li>read one small part</li>
+          <li>type the example</li>
+          <li>guess what happens</li>
+          <li>run it</li>
+          <li>change one thing</li>
+          <li>run it again</li>
+        </ul>
+      </section>
+
+      <section id="videos">
+        <h2>Videos and other help</h2>
+        <p><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/VIDEOS.md">Video guide</a></p>
+        <p><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/RESOURCES.md">More learning resources</a></p>
+        <p><a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/ROADMAP.md">Full roadmap</a></p>
+      </section>
+    </main>
+  </div>
 
   <footer>
-    <p>built for anyone who wants to learn</p>
     <div>
-      <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/ROADMAP.md">roadmap</a>
-      <a href="https://github.com/KaisenSushi/Programming-learning/blob/course/complete-curriculum/VIDEOS.md">videos</a>
-      <a href="https://github.com/KaisenSushi/Programming-learning">source</a>
+      <span>Programming Learning</span>
+      <a href="https://github.com/KaisenSushi/Programming-learning">GitHub</a>
     </div>
   </footer>
-
-  <template id="module-template">
-    <article class="module-card">
-      <button class="module-summary" type="button" aria-expanded="false">
-        <span class="module-index"></span>
-        <span class="module-main">
-          <span class="module-meta"></span>
-          <strong class="module-title"></strong>
-          <span class="module-description"></span>
-        </span>
-        <span class="module-count"></span>
-        <span class="module-toggle" aria-hidden="true">+</span>
-      </button>
-      <div class="module-details" hidden>
-        <div class="lesson-list"></div>
-        <div class="depth-panel">
-          <p class="depth-label"></p>
-          <ul class="depth-list"></ul>
-          <a class="module-home text-link">open module page</a>
-        </div>
-      </div>
-    </article>
-  </template>
 </body>
 </html>
