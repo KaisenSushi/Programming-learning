@@ -4,24 +4,25 @@ This course should sound like one person helping another person learn.
 
 ## Main rules
 
-- Use simple English.
-- Start with the main point.
-- Explain why the topic matters.
-- Show a small example before a large one.
-- Define a new word when it first appears.
-- Use short sentences when a sentence contains several ideas.
-- Say `you` when giving the learner an action.
-- Be honest when a rule has exceptions.
-- Keep technical facts accurate. Simple does not mean vague.
-- Do not use emojis or em dashes.
+- use simple English
+- start with the main point
+- explain why the topic matters
+- show a small example before a large one
+- define a new word when it first appears
+- split a sentence when it holds several ideas
+- use `you` when giving the learner an action
+- be honest when a rule has exceptions
+- keep the facts accurate
+- do not use emojis or em dashes
+- do not end every short step or bullet with a period
 
 ## A useful lesson pattern
 
-1. Say what the idea means in plain English.
-2. Show a small example.
-3. Explain what each important part does.
-4. Say why the learner would use it.
-5. Give the learner one thing to change or test.
+- say what the idea means in plain English
+- show a small example
+- explain what each important part does
+- say why someone would use it
+- give the learner one thing to change or test
 
 For example, do not only say that a list is mutable. Say that a list can change after you create it, then show an item being added.
 
@@ -35,7 +36,7 @@ Avoid empty introductions such as "In today's fast-moving world." Do not claim t
 
 ## Before publishing
 
-Check that:
+Check that
 
 - a complete beginner knows what to do next
 - every new technical word is explained

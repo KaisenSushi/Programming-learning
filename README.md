@@ -6,16 +6,34 @@ You will start with Python because it is easy to read. After that, you will lear
 
 The course is free. Every module has lessons, exercises, a quiz, a project, and solutions.
 
+[Open the course website](https://kaisensushi.github.io/Programming-learning/)
+
+## Pick your path
+
+New to programming
+
+- start with the Windows setup
+- follow the modules from 00 to 09
+- do the exercises before checking the answers
+- build each project even if the lesson felt easy
+
+Already know some programming
+
+- open the roadmap and pick a module
+- try its quiz and project first
+- use the lessons to fill the parts you missed
+- use the advanced view on the website to find deeper topics faster
+
 ## If you have never coded before
 
-Start here:
+Start here
 
-1. Open the [Windows setup guide](SETUP-WINDOWS.md).
-2. Install Python, Git, and Visual Studio Code with the commands in that guide.
-3. Go to [Getting started](00-getting-started/README.md).
-4. Read one lesson at a time.
-5. Type the code yourself. Do not only copy and paste it.
-6. Try the exercises before you open the solutions.
+- open the [Windows setup guide](SETUP-WINDOWS.md)
+- install Python Git and Visual Studio Code
+- go to [Getting started](00-getting-started/README.md)
+- read one lesson at a time
+- type the code yourself
+- try the exercises before opening the solutions
 
 You do not have to understand everything on the first try. If a lesson feels hard, run the smallest example and change one thing. Seeing what changes is part of learning.
 
@@ -38,14 +56,16 @@ The [roadmap](ROADMAP.md) shows the full order and a simple weekly routine.
 
 ## How to study
 
-Use this loop for every lesson:
+This is enough
 
-1. Read a small section.
-2. Type the example.
-3. Guess what it will do.
-4. Run it.
-5. Change one part and run it again.
-6. Write down what you learned in one sentence.
+- read one small part
+- type the example
+- guess what happens
+- run it
+- change one thing
+- run it again
+
+You do not need to write a note after every step. Stop and explain it in your own words when a part feels important or confusing.
 
 Watching someone code is useful, but it is not the same as coding. The [video guide](VIDEOS.md) links free lessons you can use when you want another explanation. Return here and do the exercises after watching.
 
@@ -53,7 +73,7 @@ Watching someone code is useful, but it is not the same as coding. The [video gu
 
 Errors are normal. Do not delete everything and restart right away.
 
-Save these four things:
+Save these four things
 
 - the code you ran
 - the exact command you used

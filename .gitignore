@@ -1,2 +1,4 @@
 .unlazy/
+dist/
+node_modules/
 

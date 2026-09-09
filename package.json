@@ -1,0 +1,8 @@
+{
+  "name": "programming-learning",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/verify-release.mjs && node scripts/verify-website.mjs && node scripts/verify-website.mjs --features && node scripts/verify-website.mjs --writing"
+  }
+}
