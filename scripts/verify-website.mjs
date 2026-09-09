@@ -52,6 +52,7 @@ function checkContent() {
   const html = read('website/index.html')
   const app = read('website/assets/app.js')
   const workflow = read('.github/workflows/pages.yml')
+  const hosting = JSON.parse(read('.openai/hosting.json'))
 
   for (const moduleName of moduleNames) {
     expect(app.includes(`slug: '${moduleName}'`), `website data is missing ${moduleName}`)
@@ -96,6 +97,7 @@ function checkContent() {
   expect(workflow.includes('actions/upload-pages-artifact@v5'), 'Pages workflow should upload the website folder')
   expect(workflow.includes('actions/deploy-pages@v5'), 'Pages workflow should publish the Pages artifact')
   expect(workflow.includes('path: website'), 'Pages workflow should publish only the website folder')
+  expect(hosting.static?.directory === 'dist', 'Sites hosting should publish the validated dist folder')
 
   const syntax = spawnSync(process.execPath, ['--check', 'website/assets/app.js'], { encoding: 'utf8' })
   expect(syntax.status === 0, `website JavaScript has a syntax error ${syntax.stderr}`)

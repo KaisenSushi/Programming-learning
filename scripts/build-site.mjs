@@ -4,7 +4,6 @@ import path from 'node:path'
 const root = process.cwd()
 const source = path.join(root, 'website')
 const output = path.join(root, 'dist')
-const staticOutput = path.join(output, 'static')
 const serverOutput = path.join(output, 'server')
 
 if (path.dirname(output) !== root || path.basename(output) !== 'dist') {
@@ -12,9 +11,9 @@ if (path.dirname(output) !== root || path.basename(output) !== 'dist') {
 }
 
 fs.rmSync(output, { recursive: true, force: true })
-fs.mkdirSync(staticOutput, { recursive: true })
+fs.mkdirSync(output, { recursive: true })
+fs.cpSync(source, output, { recursive: true })
 fs.mkdirSync(serverOutput, { recursive: true })
-fs.cpSync(source, staticOutput, { recursive: true })
 
 const worker = `export default {
   async fetch(request, env) {
